@@ -66,14 +66,8 @@ Time-Domain Analysis    Frequency-Domain Analysis
 
 ```
 
-
-DIGITAL SIGNAL PROCESSING (DSP)
-Spectral Estimation & Digital Filter Design
-MATLAB
-
-================================================================================
 2. TIME-DOMAIN ANALYSIS
-================================================================================
+
 
 The audio waveform is plotted as a function of time to understand the behavior
 of the original signal before interference is introduced.
@@ -94,9 +88,8 @@ Original Signal
       +----> Filtered Signal
 
 
-================================================================================
 3. FREQUENCY-DOMAIN ANALYSIS
-================================================================================
+
 
 Frequency-domain analysis is performed to determine the frequency components
 contained in the audio signal.
@@ -114,9 +107,8 @@ This makes it easier to identify unwanted frequency components that may not be
 obvious in the time-domain waveform.
 
 
-================================================================================
 4. WELCH POWER SPECTRAL DENSITY ESTIMATION
-================================================================================
+
 
 The Welch Power Spectral Density (PSD) method is used to obtain a reliable
 estimate of the signal's frequency content.
@@ -156,9 +148,7 @@ These parameters affect:
 - Computational requirements
 
 
-================================================================================
 5. SINUSOIDAL INTERFERENCE
-================================================================================
 
 Controlled sinusoidal interference is introduced into the original audio
 signal to simulate unwanted frequency components.
@@ -184,9 +174,8 @@ The added interference produces identifiable spectral peaks that can be
 detected using FFT and Welch PSD analysis.
 
 
-================================================================================
 6. INTERFERENCE IDENTIFICATION
-================================================================================
+
 
 The corrupted signal is analyzed to identify the frequencies associated with
 the unwanted sinusoidal components.
@@ -206,9 +195,9 @@ The identified frequencies are then used to determine suitable filter
 specifications.
 
 
-================================================================================
+
 7. DIGITAL FILTER DESIGN
-================================================================================
+
 
 After identifying the unwanted frequency components, digital filters are
 designed to suppress the interference.
@@ -243,9 +232,8 @@ The FIR and IIR approaches are compared to determine the most suitable design
 for the signal-processing requirements.
 
 
-================================================================================
+
 8. FILTER DESIGN REQUIREMENTS
-================================================================================
 
 The filters are evaluated according to several engineering constraints.
 
@@ -260,9 +248,8 @@ SNR                        Improve signal quality
 Frequency Response         Preserve desired signal components
 
 
-================================================================================
 9. FILTER FREQUENCY RESPONSE
-================================================================================
+
 
 The frequency response of each filter is analyzed to determine how effectively
 it suppresses the unwanted frequency components.
@@ -289,9 +276,8 @@ Output Spectrum
 Reduced Interference
 
 
-================================================================================
 10. FIR/IIR FILTER COMPARISON
-================================================================================
+
 
 Different FIR and IIR configurations are compared based on their
 signal-processing performance.
@@ -318,9 +304,8 @@ The goal is to select a filter that provides an effective balance between
 signal quality and computational requirements.
 
 
-================================================================================
 11. COMPLEXITY-PERFORMANCE TRADE-OFF
-================================================================================
+
 
 A key part of the project is evaluating the trade-off between filtering
 performance and computational requirements.
@@ -350,9 +335,7 @@ Higher Computational Cost
 Potentially Higher Latency
 
 
-================================================================================
 12. DECISION MATRIX
-================================================================================
 
 Candidate filters are compared using multiple criteria.
 
@@ -371,9 +354,8 @@ The final filter is selected according to the combined
 performance-efficiency trade-off rather than a single metric.
 
 
-================================================================================
+
 13. SIGNAL RECONSTRUCTION
-================================================================================
 
 After filtering, the processed signal is reconstructed and analyzed again in
 the time domain.
@@ -401,14 +383,11 @@ The filtered signal is compared with the original signal to evaluate
 interference suppression and signal preservation.
 
 
-================================================================================
-RESULTS
-================================================================================
 
 
-================================================================================
+
 14. TIME-DOMAIN RESULTS
-================================================================================
+
 
 The original, corrupted, and filtered signals are compared in the time domain.
 
@@ -424,10 +403,8 @@ The comparison is used to evaluate whether the filtering process reduces the
 effect of the interference while preserving the overall waveform
 characteristics.
 
-
-================================================================================
 15. FREQUENCY-DOMAIN RESULTS
-================================================================================
+
 
 The frequency spectra before and after filtering are compared to evaluate
 interference suppression.
@@ -450,9 +427,9 @@ The frequency-domain analysis provides direct evidence of attenuation at the
 targeted interference frequencies.
 
 
-================================================================================
+
 16. SNR EVALUATION
-================================================================================
+
 
 The Signal-to-Noise Ratio (SNR) is used as a measure of signal quality.
 
@@ -470,9 +447,8 @@ An effective filter should improve signal quality by suppressing unwanted
 interference while minimizing distortion of the desired signal.
 
 
-================================================================================
 17. FINAL FILTER SELECTION
-================================================================================
+
 
 The final filter configuration is selected based on the combined evaluation
 of:
@@ -489,9 +465,8 @@ The selected design therefore represents a performance-efficiency trade-off
 rather than simply choosing the filter with the strongest attenuation.
 
 
-================================================================================
 PROJECT WORKFLOW
-================================================================================
+
 
 Original Audio
       |
@@ -540,10 +515,8 @@ SNR Evaluation
       v
 Final Performance Assessment
 
-
-================================================================================
 TECHNOLOGIES
-================================================================================
+
 
 - MATLAB
 - Digital Signal Processing
