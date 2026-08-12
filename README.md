@@ -2,6 +2,18 @@
 
 A MATLAB-based **Digital Signal Processing (DSP)** project focused on **audio signal analysis, spectral estimation, sinusoidal interference removal, and digital filter design**.
 
+
+## 🛠️ Technologies
+
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![DSP](https://img.shields.io/badge/Digital%20Signal%20Processing-8A2BE2?style=for-the-badge)
+![FFT](https://img.shields.io/badge/FFT-Frequency%20Analysis-orange?style=for-the-badge)
+![Welch PSD](https://img.shields.io/badge/Welch%20PSD-Spectral%20Analysis-blue?style=for-the-badge)
+![FIR](https://img.shields.io/badge/FIR%20Filters-Digital%20Filtering-green?style=for-the-badge)
+![IIR](https://img.shields.io/badge/IIR%20Filters-Digital%20Filtering-red?style=for-the-badge)
+![Signal Analysis](https://img.shields.io/badge/Signal%20Analysis-Time%20%26%20Frequency%20Domain-purple?style=for-the-badge)
+![SNR](https://img.shields.io/badge/SNR-Signal%20Quality-yellow?style=for-the-badge)
+
 ## Overview
 
 The project analyzes an audio signal in both the **time and frequency domains**, identifies unwanted frequency components, introduces controlled sinusoidal interference, and designs digital filters to reduce the interference.
